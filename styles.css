@@ -53,16 +53,17 @@ article {
 
 .banner {
     padding-top: 27vh;
+    
 }
 
 #promotion {
     width: auto;
     height: 40vh;
-    background: center/cover url("/Assets/Images/necklace.jpg") no repeat;
+    background: center/cover url("./Assets/Images/necklace.jpg") no repeat;
     background-color:lightgray;
 }
 
-img:hover {
+article img:hover {
     opacity: 80%;
 }
 #best-sellers {
