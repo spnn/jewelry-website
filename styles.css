@@ -38,7 +38,7 @@ li a:hover {
 .navbar {
     display: flex;
     justify-content:space-between;
-    background-color: darkgrey;
+    background-color: #d2beab;
     padding: 1.5vh;
 }
 
@@ -59,11 +59,14 @@ article {
 #promotion {
     width: auto;
     height: 40vh;
-    background: center/cover url("./Assets/Images/necklace.jpg") no repeat;
-    background-color:lightgray;
+    background-image: url("./Assets/Images/necklace.jpg");
+    background-color: #f2e5d6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-article img:hover {
+img:hover {
     opacity: 80%;
 }
 #best-sellers {
