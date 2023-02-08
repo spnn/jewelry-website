@@ -1,0 +1,101 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+    scroll-behavior: smooth;
+}
+
+#main-logo {
+    width: 45vw;
+    max-width: 400pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    background-color: darkgrey;
+    padding: 1.5vh;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    text-align: center;
+}
+
+.banner {
+    padding-top: 27vh;
+}
+
+#promotion {
+    width: auto;
+    height: 40vh;
+    background: center/cover url("/Assets/Images/necklace.jpg") no repeat;
+    background-color:lightgray;
+}
+
+img:hover {
+    opacity: 80%;
+}
+#best-sellers {
+    padding-left: 1vw;
+    font-size: 1.5rem;
+}
+
+p, figcaption {
+    font-family: Georgia, serif;
+    line-height: 1.5;
+}
+
+article img {
+    width: 30vh;
+}
+
+
+#about-us {
+    display: block;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#small-logo {
+    width: 8vw;
+    max-width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#copyright {
+    font-size:x-small;
+    text-align: center;
+    padding-bottom: 2vh;
+}
